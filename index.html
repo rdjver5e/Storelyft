@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="img/storelyftlogo.png"
+      type="image/x-icon"
+    />
+    <title>Storelyft</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"></script>
+    <script
+      src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs"
+      type="module"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-container">
+        <div class="nav-logo">
+          <img id="logo" src="img/storelyftlogo.png" alt="" />
+        </div>
+
+        <ul class="nav-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about-us.html">About Us</a></li>
+          <li><a href="Ecommerce.html">Ecommerce</a></li>
+        </ul>
+
+        <div class="nav-cta">
+          <a href="contact.html" class="button primary" id="contact-button"
+            >Contact Us</a
+          >
+        </div>
+
+        <div class="mobile-menu-toggle">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </div>
+      </div>
+
+      <div class="mobile-menu">
+        <div class="mobile-menu-header">
+          <div class="mobile-close">×</div>
+        </div>
+        <ul class="mobile-nav-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about-us.html">About Us</a></li>
+          <li><a href="ecommerce.html">Ecommerce</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div class="mobile-menu-overlay"></div>
+    </nav>
+
+    <section id="home">
+      <div class="orb gold"></div>
+      <div class="orb green"></div>
+
+      <div class="hero-content">
+        <h1 class="headline">
+          Transform Your
+          <span>Shopify Store</span>
+          Into a Sales Machine
+        </h1>
+
+        <p class="subtitle">
+          We don't just redesign—we engineer how your brand sells. Combining
+          elegant design with conversion science for measurable performance.
+        </p>
+
+        <div class="buttons">
+          <a href="contact.html" class="button primary">Let's Talk</a>
+          <!-- <a href="#" class="button outline">View Case Studies</a> -->
+        </div>
+
+        <div class="stats">
+          <div class="stat">
+            <div class="value">250%</div>
+            <div class="label">Avg. Conversion Lift</div>
+          </div>
+          <div class="stat">
+            <div class="value">$2.4M+</div>
+            <div class="label">Revenue Generated</div>
+          </div>
+          <div class="stat">
+            <div class="value">48hrs</div>
+            <div class="label">Avg. Analysis Time</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="services-header">
+        <h1>Our Services</h1>
+        <p>
+          Comprehensive ecommerce solutions to scale your online business and
+          maximize revenue
+        </p>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">🛍️</div>
+          <h3>Shopify Store Development</h3>
+          <p>
+            Custom Shopify stores built from the ground up with
+            conversion-focused design and seamless user experience.
+          </p>
+          <ul>
+            <li>Custom theme development</li>
+            <li>Product catalog setup</li>
+            <li>Payment gateway integration</li>
+            <li>Mobile optimization</li>
+          </ul>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">📈</div>
+          <h3>Conversion Rate Optimization</h3>
+          <p>
+            Increase your sales without increasing traffic through strategic CRO
+            techniques and A/B testing.
+          </p>
+          <ul>
+            <li>Landing page optimization</li>
+            <li>Checkout funnel improvement</li>
+            <li>A/B testing campaigns</li>
+            <li>User behavior analysis</li>
+          </ul>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">🎯</div>
+          <h3>Digital Marketing</h3>
+          <p>
+            Drive qualified traffic and boost sales with our comprehensive
+            digital marketing strategies.
+          </p>
+          <ul>
+            <li>Google Ads management</li>
+            <li>Facebook & Instagram ads</li>
+            <li>Email marketing campaigns</li>
+            <li>SEO optimization</li>
+          </ul>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">📊</div>
+          <h3>Analytics & Reporting</h3>
+          <p>
+            Make data-driven decisions with comprehensive tracking, reporting,
+            and performance insights.
+          </p>
+          <ul>
+            <li>Google Analytics setup</li>
+            <li>Sales performance tracking</li>
+            <li>Custom reporting dashboards</li>
+            <li>ROI measurement</li>
+          </ul>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">🔄</div>
+          <h3>Store Migration</h3>
+          <p>
+            Seamlessly migrate your existing store to Shopify without losing
+            data, SEO rankings, or sales.
+          </p>
+          <ul>
+            <li>Platform migration (WooCommerce, Magento, etc.)</li>
+            <li>Data preservation & cleanup</li>
+            <li>SEO redirect mapping</li>
+            <li>Zero downtime migration</li>
+          </ul>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">⚡</div>
+          <h3>Performance Optimization</h3>
+          <p>
+            Boost your store's speed and performance to improve user experience
+            and search rankings.
+          </p>
+          <ul>
+            <li>Site speed optimization</li>
+            <li>Image compression & CDN setup</li>
+            <li>Code optimization</li>
+            <li>Core Web Vitals improvement</li>
+          </ul>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">🛠️</div>
+          <h3>Ongoing Maintenance</h3>
+          <p>
+            Keep your store running smoothly with regular updates, monitoring,
+            and technical support.
+          </p>
+          <ul>
+            <li>Regular security updates</li>
+            <li>Backup management</li>
+            <li>Bug fixes & troubleshooting</li>
+            <li>24/7 technical support</li>
+          </ul>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">🎨</div>
+          <h3>Brand & Design</h3>
+          <p>
+            Create a cohesive brand experience that builds trust and drives
+            customer loyalty.
+          </p>
+          <ul>
+            <li>Brand identity development</li>
+            <li>UI/UX design</li>
+            <li>Product photography</li>
+            <li>Graphic design assets</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="why-choose-us">
+      <div class="why-choose-us-container">
+        <h2>Why Choose Us</h2>
+        <p>
+          Discover the unique advantages that set us apart from the competition.
+        </p>
+        <div class="why-choose-us-grid">
+          <!-- Row 1: Item left, Icon right -->
+          <div>
+            <div class="why-choose-us-item">
+              <h4>Expert Team</h4>
+              <p>
+                Our professionals bring years of experience and deep expertise
+                to every project.
+              </p>
+            </div>
+            <div class="why-choose-us-icon">
+              <dotlottie-player
+                src="https://lottie.host/7e0991a9-ec2e-44d5-a8ca-06af3d6e42ac/Lg7LFyzMJK.lottie"
+                background="transparent"
+                speed="1"
+                style="width: 400px; height: 400px"
+                loop
+                autoplay
+              ></dotlottie-player>
+            </div>
+          </div>
+          <!-- Row 2: Icon left, Item right -->
+          <div>
+            <div class="why-choose-us-icon">
+              <!-- <img src="" alt=""> -->
+              <dotlottie-player
+                src="https://lottie.host/b03a03d0-64a8-4dea-b213-c4fbe734c0a8/9u4Do8XlWs.lottie"
+                background="transparent"
+                speed="1"
+                style="width: 350px; height: 350px"
+                loop
+                autoplay
+              ></dotlottie-player>
+            </div>
+            <div class="why-choose-us-item">
+              <h4>24/7 Support</h4>
+              <p>
+                We are always available to assist you, ensuring seamless service
+                at all times.
+              </p>
+            </div>
+          </div>
+          <!-- Row 3: Item left, Icon right -->
+          <div>
+            <div class="why-choose-us-item">
+              <h4>Proven Results</h4>
+              <p>
+                Our track record speaks for itself, with measurable outcomes for
+                our clients.
+              </p>
+            </div>
+            <div class="why-choose-us-icon">
+              <dotlottie-player
+                src="https://lottie.host/f2e406df-7f4e-40df-ac43-19f582cf2148/hM6WmtV7ks.lottie"
+                background="transparent"
+                speed="1"
+                style="width: 400px; height: 380px"
+                loop
+                autoplay
+              ></dotlottie-player>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="main-container">
+        <div class="caller-container">
+          <img
+            class="caller-image"
+            src="img/Admin-bro.png"
+            alt="Customer service representative"
+          />
+        </div>
+
+        <form class="form-1">
+          <div class="form-row">
+            <div class="form-header">
+              <h1>Let's Talk!</h1>
+              <p>
+                Talk to one of our consultants today and learn how to start
+                leveraging your business.
+              </p>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address </label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <textarea
+              id="message"
+              name="message"
+              rows="4"
+              placeholder="Message"
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="button primary">Submit</button>
+        </form>
+
+        <div class="second-container">
+          <img class="second-image" src="img/team.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-main">
+          <div class="footer-brand">
+            <h3>StoreLyft</h3>
+            <p>
+              Transform your Shopify store into a high-performance sales machine
+              with conversion-focused design and engineering.
+            </p>
+          </div>
+
+          <div class="footer-links">
+            <div class="footer-column">
+              <h4>Important Links</h4>
+              <ul>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="contact.html">Features</a></li>
+                <li>
+                  <a href="cancellation-and-refund.html"
+                    >Cancellation and Refund Policy</a
+                  >
+                </li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-column">
+              <h4>Contact</h4>
+              <ul>
+                <li>
+                  <a href="mailto:hello@storelyft.com">hello@storelyft.com</a>
+                </li>
+                <li><a href="tel:8116432541">(+91) 81164-32541</a></li>
+                <li>Mon-Fri, 9AM-6PM IST</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <div class="footer-legal">
+            <p>&copy; 2025 StoreLyft. All rights reserved.</p>
+            <div class="legal-links">
+              <a href="privacy-policy.html">Privacy Policy</a>
+              <a href="terms-of-service.html">Terms of Service</a>
+              <!-- <a href="#">Cookie Policy</a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>

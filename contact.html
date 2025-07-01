@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/storelyftlogo.png" type="image/x-icon">
+    <title>Contact Us - StoreLyft</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"></script>
+    <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-container">
+        <div class="nav-logo">
+          <img id="logo" src="img/storelyftlogo.png" alt="" />
+        </div>
+
+        <ul class="nav-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about-us.html">About Us</a></li>
+          <li><a href="Ecommerce.html">Ecommerce</a></li>
+        </ul>
+
+        <div class="nav-cta">
+          <a href="contact.html" class="button primary" id="contact-button"
+            >Contact Us</a
+          >
+        </div>
+
+        <div class="mobile-menu-toggle">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </div>
+      </div>
+
+      <div class="mobile-menu">
+        <div class="mobile-menu-header">
+          <div class="mobile-close">×</div>
+        </div>
+        <ul class="mobile-nav-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about-us.html">About Us</a></li>
+          <li><a href="ecommerce.html">Ecommerce</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div class="mobile-menu-overlay"></div>
+    </nav>
+
+    <section id="contact">
+      <div class="contact-info-section">
+        <div class="contact-methods-section">
+          <h3>Let's Talk!</h3>
+          <p>Tell us what you're looking for!</p>
+
+          <div class="contact-methods">
+            <div class="contact-method">
+              <div class="contact-icon">📧</div>
+              <div class="contact-details">
+                <h4>Email</h4>
+                <p>hello@storelyft.com</p>
+                <span>We respond within 24 hours</span>
+              </div>
+            </div>
+
+            <div class="contact-method">
+              <div class="contact-icon">📞</div>
+              <div class="contact-details">
+                <h4>Phone</h4>
+                <p>(+91)81164-32541</p>
+                <span>Mon-Fri, 9AM-6PM EST</span>
+              </div>
+            </div>
+
+            <div class="contact-method">
+              <div class="contact-icon">💬</div>
+              <div class="contact-details">
+                <h4>Instagram</h4>
+                <p>@storelyft</p>
+                <span>DM us on Instagram to schedule a meeting!</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form">
+          <div class="form-row">
+            <div>
+              <h1>Write to Us!</h1>
+
+              <p>
+                Talk to one of our consultants today and learn how to start
+                leveraging your business.
+              </p>
+            </div>
+          </div>
+          <div class="form-group">
+            <input
+              type="text"
+              id="Name"
+              name="Name"
+              placeholder="Name"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Email"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <input type="tel" id="phone" name="phone" placeholder="Phone" />
+          </div>
+
+          <div class="form-group">
+            <!-- <label for="message">Tell us about your goals *</label> -->
+            <textarea
+              id="message"
+              name="message"
+              rows="4"
+              placeholder="Message"
+              required
+            ></textarea>
+          </div>
+
+          <button type="submit" class="button primary">Send</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-main">
+          <div class="footer-brand">
+            <h3>StoreLyft</h3>
+            <p>
+              Transform your Shopify store into a high-performance sales machine
+              with conversion-focused design and engineering.
+            </p>
+          </div>
+
+          <div class="footer-links">
+            <div class="footer-column">
+              <h4>Important Links</h4>
+              <ul>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="contact.html">Features</a></li>
+                <li>
+                  <a href="cancellation-and-refund.html"
+                    >Cancellation and Refund Policy</a
+                  >
+                </li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-column">
+              <h4>Contact</h4>
+              <ul>
+                <li>
+                  <a href="mailto:hello@storelyft.com">hello@storelyft.com</a>
+                </li>
+                <li><a href="tel:8116432541">(+91) 81164-32541</a></li>
+                <li>Mon-Fri, 9AM-6PM IST</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <div class="footer-legal">
+            <p>&copy; 2025 StoreLyft. All rights reserved.</p>
+            <div class="legal-links">
+              <a href="privacy-policy.html">Privacy Policy</a>
+              <a href="terms-of-service.html">Terms of Service</a>
+              <!-- <a href="#">Cookie Policy</a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+    <script src="script.js"></script>
+</html>
